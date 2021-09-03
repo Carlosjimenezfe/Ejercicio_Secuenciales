@@ -24,3 +24,20 @@ edad = int(input('Digite el valor de la edad : '))
 pulsaciones = (200 - edad)/10
 print('El numero de pulsaciones es de :', pulsaciones)
 
+"""
+3. Tres personas deciden invertir su dinero para fundar una empresa.
+Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje
+que cada quien invierte con respecto a la cantidad total invertida.
+"""
+personaUna = float(input("Digite la cantidad que invirtio : $"))
+personaDos = float(input("Digite la cantidad que invirtio : $"))
+personaTres = float(input("Digite la cantidad que invirtio : $"))
+
+total = personaUna + personaDos + personaTres
+p1 = (personaUna / total)*100
+p2 = (personaDos / total)*100
+p3 = (personaTres / total)*100
+
+print(f'EL porcentaje del primer inversor es de {p1} %')
+print(f'EL porcentaje del primer inversor es de {p2} %')
+print(f'EL porcentaje del primer inversor es de {p3} %')
